@@ -2,3 +2,14 @@
     padding : 0;
     margin : 0;
 }
+.card{
+    margin:auto;
+    background-color: indianred;
+    height: 400px;
+    width: 400px;
+    border-radius: 7px;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    cursor: pointer;
+}
