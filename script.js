@@ -1,7 +1,6 @@
 const card = document.getElementsByClassName("card")[0];
-let color = card.style.color
 
 card.addEventListener('click',()=>{
-    color = "blue"
+    color = color == "blue" ? "Red" : "Blue"
     card.style.backgroundColor = `${color}`;
 })
